@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: "Horizon";
-    src: url("./assets/fonts/horizon.otf");
+    src: url("/assets/fonts/horizon.otf");
 }
 
 @font-face {
@@ -22,7 +22,7 @@ body {
 
 @font-face {
     font-family: "HorizonOutlined";
-    src: url("./assets/fonts/horizon_outlined.otf");
+    src: url("/assets/fonts/horizon_outlined.otf");
 }
 
 @font-face {
@@ -255,7 +255,12 @@ main {
 
 .about-content h2 {
     font-family: "BebasNeue";
+    color: #232a40;
     font-size: 4.3rem;
+}
+
+.about-content strong {
+    color: #232a40;
 }
 
 .about-content p {
@@ -273,79 +278,14 @@ main {
     border-radius: 3em;
     width: 60%;
     padding: 15px 30px;
-    background-color: #000;
+    background-color: #232a40;
     margin-top: 5%;
     cursor: pointer;
+    border: 1px solid #232a40;
     transition: all .5s ease-in-out;
 }
 
 .about-content button:hover {
-    background-color: #3f3a3a;
-}
-
-
-
-
-
-
-
-
-/*FOOTER*/
-
-.footer {
-    display: flex;
-    justify-content: space-around;
-    height: 40vh;
-    margin-top: 10%;
-}
-
-.footer * {
-    font-family: "RobotoCond";
-}
-
-.footer>div {
-    width: 50%;
-}
-
-.talk-footer {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: flex-start;
-    margin-left: 12%;
-}
-
-.talk-footer h3 {
-    font-family: "BebasNeue";
-    font-size: 4rem;
-}
-
-.talk-footer p {
-    font-family: "RobotoCond";
-    max-width: 550px;
-    text-align: justify;
-    margin-top: -1%;
-    font-size: 1.4rem;
-}
-
-.inputs-footer {
-    display: flex;
-    flex-direction: column;
-    margin-right: 5%;
-    gap: 1%;
-}
-
-.inputs-footer input,
-textarea {
-    border-radius: 2em;
+    background-color: #5e6478;
     border: 1px solid #000;
-}
-
-.inputs-footer input {
-    padding: 10px;
-}
-
-.name {
-    display: flex;
-    flex-direction: column;
 }

@@ -1,0 +1,45 @@
+:root {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("/assets/background-login-reg.jpeg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Horizon";
+    src: url("/assets/fonts/horizon.otf");
+}
+
+@font-face {
+    font-family: "RobotoCond";
+    src: url("/assets/fonts/Roboto-Condensed.ttf");
+}
+
+@font-face {
+    font-family: "HorizonOutlined";
+    src: url("/assets/fonts/horizon_outlined.otf");
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('/assets/fonts/BebasNeue-Regular.otf');
+}
+
+.login {
+    width: 30vw;
+    height: 95vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    margin: 1.5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {}
