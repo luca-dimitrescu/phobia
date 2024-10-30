@@ -6,7 +6,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("/assets/background-login-reg.jpeg");
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,15 +30,3 @@ body {
     font-family: "BebasNeue";
     src: url('/assets/fonts/BebasNeue-Regular.otf');
 }
-
-.login {
-    width: 30vw;
-    height: 95vh;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2em;
-    margin: 1.5% auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {}

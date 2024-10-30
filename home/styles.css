@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
 }
 
+
 @font-face {
     font-family: "Horizon";
     src: url("/assets/fonts/horizon.otf");
@@ -288,4 +289,44 @@ main {
 .about-content button:hover {
     background-color: #5e6478;
     border: 1px solid #000;
+}
+
+.feature-title>h2 {
+    font-family: "BebasNeue";
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.feature-content {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-content>div {
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    aspect-ratio: 2.5 / 3;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 400ms ease-in-out;
+    font-size: 1.1em;
+}
+
+.card h2 {
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 2rem;
+}
+
+.card p {
+    text-align: center;
+    font-family: "RobotoCond";
+    font-size: 1.2rem;
 }
