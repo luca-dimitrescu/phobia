@@ -330,3 +330,103 @@ main {
     font-family: "RobotoCond";
     font-size: 1.2rem;
 }
+
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    margin-top: 10%;
+}
+
+.footer * {
+    font-family: "RobotoCond";
+}
+
+.footer>div {
+    width: 50%;
+}
+
+.talk-footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    margin-left: 12%;
+}
+
+.talk-footer h3 {
+    font-family: "BebasNeue";
+    font-size: 4rem;
+}
+
+.talk-footer p {
+    font-family: "RobotoCond";
+    max-width: 550px;
+    text-align: justify;
+    margin-top: -1%;
+    font-size: 1.4rem;
+}
+
+.inputs-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    gap: 1%;
+}
+
+.inputs-footer input,
+textarea {
+    border-radius: 2em;
+    border: 1px solid #000;
+}
+
+.inputs-footer input {
+    padding: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+/*************  ✨ Codeium Command ⭐  *************/
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .talk-footer {
+        margin-left: 0;
+    }
+
+    .inputs-footer {
+        margin-right: 0;
+    }
+
+    .inputs-footer input,
+    textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .talk-footer h3 {
+        font-size: 2.5rem;
+    }
+
+    .talk-footer p {
+        font-size: 1.2rem;
+    }
+
+    .inputs-footer input,
+    textarea {
+        padding: 8px;
+    }
+}
+
+/******  15279a59-bf33-4130-ae40-ba699073257f  *******/
